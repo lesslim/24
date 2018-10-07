@@ -6,7 +6,7 @@
 /*   By: rberon-s <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/06 21:12:55 by rberon-s          #+#    #+#             */
-/*   Updated: 2018/10/06 22:11:36 by rberon-s         ###   ########.fr       */
+/*   Updated: 2018/10/07 14:24:30 by rberon-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	f(char *str, long long n, long long lx)
 
 	i = 0;
 	if (ft_strcmp(str, rush00(lx, n / (lx + 1))) == 0 && i++ > -1)
-        print_rush00(i, lx, n / (lx + 1));
+		print_rush00(i, lx, n / (lx + 1));
 	if (ft_strcmp(str, rush01(lx, n / (lx + 1))) == 0 && i++ > -1)
 		print_rush01(i, lx, n / (lx + 1));
 	if (ft_strcmp(str, rush02(lx, n / (lx + 1))) == 0 && i++ > -1)
@@ -29,5 +29,5 @@ void	f(char *str, long long n, long long lx)
 		print_rush04(i, lx, n / (lx + 1));
 	if (i == 0)
 		ft_putstr("aucune");
-    ft_putstr("\n");
+	ft_putstr("\n");
 }
