@@ -14,9 +14,9 @@
 
 void	print_rush00(int i, long long x, long long y)
 {
-	if (i > 0)
+	if (i > 1)
 		ft_putstr(" || ");
-	ft_putstr("[rush-00]");
+	ft_putstr("[rush-00] ");
 	ft_putchar('[');
 	ft_putnbr(x);
 	ft_putstr("] ");
@@ -27,9 +27,9 @@ void	print_rush00(int i, long long x, long long y)
 
 void	print_rush01(int i, long long x, long long y)
 {
-	if (i > 0)
+	if (i > 1)
 		ft_putstr(" || ");
-	ft_putstr("[rush-01]");
+	ft_putstr("[rush-01] ");
 	ft_putchar('[');
 	ft_putnbr(x);
 	ft_putstr("] ");
@@ -40,9 +40,9 @@ void	print_rush01(int i, long long x, long long y)
 
 void	print_rush02(int i, long long x, long long y)
 {
-	if (i > 0)
+	if (i > 1)
 		ft_putstr(" || ");
-	ft_putstr("[rush-02]");
+	ft_putstr("[rush-02] ");
 	ft_putchar('[');
 	ft_putnbr(x);
 	ft_putstr("] ");
@@ -53,9 +53,9 @@ void	print_rush02(int i, long long x, long long y)
 
 void	print_rush03(int i, long long x, long long y)
 {
-	if (i > 0)
+	if (i > 1)
 		ft_putstr(" || ");
-	ft_putstr("[rush-03]");
+	ft_putstr("[rush-03] ");
 	ft_putchar('[');
 	ft_putnbr(x);
 	ft_putstr("] ");
@@ -66,9 +66,9 @@ void	print_rush03(int i, long long x, long long y)
 
 void	print_rush04(int i, long long x, long long y)
 {
-	if (i > 0)
+	if (i > 1)
 		ft_putstr(" || ");
-	ft_putstr("[rush-04]");
+	ft_putstr("[rush-04] ");
 	ft_putchar('[');
 	ft_putnbr(x);
 	ft_putstr("] ");

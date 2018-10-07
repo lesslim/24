@@ -26,15 +26,15 @@ char	*rush00(long long x, long long y)
 		while (++c <= x)
 		{
 			if (s != y && s != 1 && c != x && c != 1)
-				str[s * (x + 1) + c] = (' ');
+				str[(s - 1) * (x + 1) + c - 1] = (' ');
 			else if ((c == 1 && s > 1 && s < y) || (c == x && s > 1 && s < y))
-				str[s * (x + 1) + c] = ('|');
+				str[(s - 1) * (x + 1) + c - 1] = ('|');
 			else if ((s == 1 && c > 1 && c < x) || (s == y && c > 1 && c < x))
-				str[s * (x + 1) + c] = ('-');
+				str[(s - 1) * (x + 1) + c - 1] = ('-');
 			else
-				str[s * (x + 1) + c] = ('o');
+				str[(s - 1) * (x + 1) + c - 1] = ('o');
 			if (c == x)
-				str[s * (x + 1) + c + 1] = ('\n');
+				str[(s - 1) * (x + 1) + c] = ('\n');
 		}
 	}
 	return (str);

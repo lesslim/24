@@ -35,6 +35,6 @@ int		main(void)
 		if (c == '\n' && lx == -2)
 			lx = n - 1;
 	}
-    printf("%s\n", rush00(lx, n / (lx + 1)));
+    f(str, n, lx);
 	return (0);
 }

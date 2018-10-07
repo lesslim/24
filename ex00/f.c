@@ -18,10 +18,7 @@ void	f(char *str, long long n, long long lx)
 
 	i = 0;
 	if (ft_strcmp(str, rush00(lx, n / (lx + 1))) == 0 && i++ > -1)
-    {
-        printf("%d", i);
-		print_rush00(i, lx, n / (lx + 1));
-    }
+        print_rush00(i, lx, n / (lx + 1));
 	if (ft_strcmp(str, rush01(lx, n / (lx + 1))) == 0 && i++ > -1)
 		print_rush01(i, lx, n / (lx + 1));
 	if (ft_strcmp(str, rush02(lx, n / (lx + 1))) == 0 && i++ > -1)
@@ -32,4 +29,5 @@ void	f(char *str, long long n, long long lx)
 		print_rush04(i, lx, n / (lx + 1));
 	if (i == 0)
 		ft_putstr("aucune");
+    ft_putstr("\n");
 }

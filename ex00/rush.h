@@ -15,7 +15,6 @@
 
 # include <stdlib.h>
 # include <unistd.h>
-# include <stdio.h>
 
 char    *rush00(long long x, long long y);
 char    *rush01(long long x, long long y);
